@@ -1,0 +1,60 @@
+.title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+
+  .main-cont1 {
+    width: 370px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+  }
+
+  .termtext {
+    font-size: 12px;
+    line-height: 18px;
+    color: #111111;
+    font-weight: 400;
+  }
+
+  .toggle-list {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 0.1em;
+    margin: 10px 0 20px !important;
+  }
+
+  .h4 span {
+    background-color: #fff;
+    padding: 0 20px;
+    color: #767676;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+  }
+
+  .second-part {
+    width: 316px;
+    margin-left: -8px;
+  }
+
+  .mobile label{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .name label{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .role label{
+    font-size: 12px;
+    font-weight: bold;
+  }

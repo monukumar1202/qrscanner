@@ -1,0 +1,77 @@
+
+.title {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+
+  .main-cont2 {
+    /* width: 370px; */
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    text-align: start !important;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+
+  .titlecard{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .imagearea{
+    text-align: center;
+  }
+  .termtext {
+    font-size: 12px;
+    line-height: 18px;
+    color: #111111;
+    font-weight: 400;
+  }
+
+  .toggle-list {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .h4 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 0.1em;
+    /* margin: 10px 0 20px !important; */
+  }
+
+  .h4 .help {
+    background-color: #fff;
+    /* padding: 0 20px; */
+    position: absolute;
+    color: #767676;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    margin-top: -6px;
+    margin-left: -60px;
+  }
+
+  .second-part {
+    width: 316px;
+    margin-left: -8px;
+  }
+
+  .email label{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .password label{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .details{
+    margin-top: 2rem;
+  }
+
+  .registerform{
+    width: 60%;
+  }

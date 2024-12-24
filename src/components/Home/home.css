@@ -1,0 +1,151 @@
+.homepage-bgimage {
+    background: url("../../../public/images/background.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+  .text{
+    color: white;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    height: 100%;
+  }
+
+  .card{
+    border: none;
+    padding: 0;
+  }
+
+  .texttitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .texttitle div{
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .texttitle div p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .textimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer{
+    background: linear-gradient(to bottom right, #001d41, rgb(19, 27, 61));
+    color: #fff;
+    height: 350px;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+  }
+
+
+  @media (prefers-reduced-motion: no-preference) {
+    .coin {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
+
+  .social_list {
+    display: flex;
+  }
+  
+  .social_list li {
+    list-style: none;
+  }
+  
+  .social_list li a {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+  .social_list li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  .social_list li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  .social_list li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  .social_list li a:hover:before {
+    top: 0;
+  }
+  
+  /* ul li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+   */
+  .social_list li:nth-child(1) a:before{
+    background: #55acee;
+  }
+  
+  .social_list li:nth-child(2) a:before {
+    background: #0077b5;
+  }
+  
+  .social_list li:nth-child(3) a:before {
+    background: #dd4b39;
+  }
+
+.footer_content{
+  padding: 1.5rem;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.list_style li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

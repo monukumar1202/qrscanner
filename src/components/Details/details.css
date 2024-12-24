@@ -1,0 +1,23 @@
+
+.mainCard{
+    width: 100%;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: .5rem;
+}
+.mainCard div{
+    background: #fff;  
+}
+
+.itemCard{
+    padding: 1rem;
+}
+
+.itemImg{
+    height: 150px !important;
+}
+
+.mainCard .buy{
+    margin-left: 2rem;
+}

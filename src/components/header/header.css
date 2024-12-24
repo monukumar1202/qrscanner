@@ -1,0 +1,42 @@
+
+.p-dialog-mask{
+    background: #00000080 !important;
+}
+
+.p-dialog-footer{
+    text-align: end !important;
+}
+.tabletitle th{
+    font-size: 14px;
+}
+.p-dialog-title{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.topnav{
+    display: grid;
+    grid-template-columns: 3fr 4fr 5fr;
+    padding-top: 5px;
+}
+.userArea{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2px;
+}
+.nav-item{
+    width: 50%;
+}
+
+.nav-link{
+    width: 100%;
+    font-weight: bold;
+}
+
+.p-dialog-header-icon {
+    color: #fff;
+}
+
+.tab-content{
+    overflow: auto;
+}

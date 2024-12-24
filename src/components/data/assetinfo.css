@@ -1,0 +1,24 @@
+.p-column-title{
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.p-datatable-thead tr th{
+    background-color: #43608e;
+    color: white;
+    min-width: 8rem;
+    border: 1px solid white;
+    padding: 8px;
+}
+.p-icon{
+    color: white;
+}
+.p-column-filter-menu-button{
+    border-radius: 50%;
+    color: black;
+}
+.p-column-filter-menu-button:hover{
+    color: black;
+}
